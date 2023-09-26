@@ -12,6 +12,8 @@
 ```go
 package main
 
+package main
+
 import (
 	"fmt"
 )
@@ -26,11 +28,13 @@ func main() {
 
 func GetAbout() About {
 	return About{
-	 "- About: I am a Cyber Security Enthusiast and a Hacker with an Ethical mindset. I'm having experience in Web-app security, Mobile app security, API security, Vulnerability Assessment & Penetration Testing.",
-         "- Known Tools: I am experienced with tools like BurpSuite, acunetix, Nmap, and of course with Kali Linux & some GitHub open source tools like Amass, Aquatone, etc many more for finding the vulnerabilities in the web application and mobile application.", 
-         "- Frequently: I have also made some scripts for the infosec community which helps beginners to find low-hanging bugs. I have frequently found account takeover, injections, privilege escalation, etc vulnerabilities on many programs.",
+		"- About": `I am a Cyber Security Enthusiast and a Hacker with an Ethical mindset. I'm having experience in Web-app security, Mobile app security, API security, Vulnerability Assessment & Penetration Testing.`,
+		"- Known Tools": `I am experienced with tools like BurpSuite, acunetix, Nmap, and of course with Kali Linux & some GitHub open source tools like Amass, Aquatone, etc many more for finding the vulnerabilities in the web application and mobile application.`,
+		"- Frequently": `I have also made some scripts for the infosec community which helps beginners to find low-hanging bugs. I have frequently found account takeover, injections, privilege escalation, etc vulnerabilities on many programs.`,
 	}
 }
+
+
 ```
 
 ```js
